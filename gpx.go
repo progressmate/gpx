@@ -1,7 +1,7 @@
 //go:generate xsdgen -o types.go -f -pkg gpx -r "gpx -> GPX" -r "Type -> " schema/1.1.xsd
 
 // Package gpx provides parsing functionality for GPX 1.1 files into go types. See https://www.topografix.com/gpx.asp for
-// more information on the GPX file format.
+// more information on the GPX file format. Types are automatically generated via the GPX 1.1 schema using xsdgen.
 package gpx
 
 import (
